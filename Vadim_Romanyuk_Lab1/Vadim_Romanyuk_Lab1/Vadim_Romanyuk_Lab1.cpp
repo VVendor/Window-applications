@@ -1,13 +1,6 @@
 // Vadim_Romanyuk_Lab1.cpp : Defines the entry point for the application.
 //
 
-//1.8 Используя функции Windows API разработать программу, отображающую внутри клиентской области своего главного окна две диагональные линии
-//из верхнего левого в правый нижний угол и из правого верхнего в левый нижний угол соответственно. Цвет линий выбирается с помощью стандартного
-//системного окна выбора цвета, которое можно вызвать либо с помощью меню главного окна, либо с помощью всплывающего меню, активизирующегося при
-//нажатии правой кнопки мыши в клиентской области, либо нажатием сочетания клавиш Alt + С, а их толщина задается с помощью окна диалога, появляющегося
-//при выборе соответствующего пункта меню либо при нажатии Ctrl + S. Программа должна корректно реагировать на изменение размеров окна.Необходимо также
-//предусмотреть, чтобы окно нельзя было уменьшать меньше чем до 100x100 пикселов.
-
 #include "stdafx.h"
 #include "Vadim_Romanyuk_Lab1.h"
 
@@ -37,7 +30,7 @@ BOOL                InitInstance(HINSTANCE, int);
 LRESULT CALLBACK    WndProc(HWND, UINT, WPARAM, LPARAM);
 INT_PTR CALLBACK    About(HWND, UINT, WPARAM, LPARAM);
 INT_PTR CALLBACK SetThickness(HWND, UINT, WPARAM, LPARAM);
-BOOL                ChooseThickness(ThicknessInfo* thickInfoб, HWND* hwnd);
+BOOL                ChooseThickness(ThicknessInfo* thickInfoГЎ, HWND* hwnd);
 
 int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
                      _In_opt_ HINSTANCE hPrevInstance,
