@@ -1,0 +1,9 @@
+c:\documents\visual studio 2015\Projects\PictureHandler\PictureHandler\bin\Debug\PictureHandler.exe.config
+c:\documents\visual studio 2015\Projects\PictureHandler\PictureHandler\bin\Debug\PictureHandler.exe
+c:\documents\visual studio 2015\Projects\PictureHandler\PictureHandler\bin\Debug\PictureHandler.pdb
+c:\documents\visual studio 2015\Projects\PictureHandler\PictureHandler\obj\Debug\PictureHandler.csprojResolveAssemblyReference.cache
+c:\documents\visual studio 2015\Projects\PictureHandler\PictureHandler\obj\Debug\PictureHandler.Form1.resources
+c:\documents\visual studio 2015\Projects\PictureHandler\PictureHandler\obj\Debug\PictureHandler.Properties.Resources.resources
+c:\documents\visual studio 2015\Projects\PictureHandler\PictureHandler\obj\Debug\PictureHandler.csproj.GenerateResource.Cache
+c:\documents\visual studio 2015\Projects\PictureHandler\PictureHandler\obj\Debug\PictureHandler.exe
+c:\documents\visual studio 2015\Projects\PictureHandler\PictureHandler\obj\Debug\PictureHandler.pdb
