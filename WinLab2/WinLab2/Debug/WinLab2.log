@@ -1,0 +1,7 @@
+﻿  WinLab2.cpp
+c:\documents\visual studio 2015\projects\winlab2\winlab2\winlab2.cpp(137): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\documents\visual studio 2015\projects\winlab2\winlab2\winlab2.cpp(149): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\documents\visual studio 2015\projects\winlab2\winlab2\winlab2.cpp(167): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\documents\visual studio 2015\projects\winlab2\winlab2\winlab2.cpp(179): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  WinLab2.vcxproj -> c:\documents\visual studio 2015\Projects\WinLab2\Debug\WinLab2.exe
+  WinLab2.vcxproj -> c:\documents\visual studio 2015\Projects\WinLab2\Debug\WinLab2.pdb (Full PDB)
