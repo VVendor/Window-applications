@@ -2,14 +2,6 @@
 //
 
 
-//2.2.Используя функции Windows API разработать программу, главным окном которой является диалог,
-//который содержит 9 кнопок, расположенных квадратом 3x3.Нажатие на центральную кнопку вызывает диалог,
-//позволяющий пользователю задать текст, отображаемый в заголовке главного окна программы.Нажатие на каждую
-//из оставшихся кнопок заставляет программу перемещать свое главное окно на 10 пикселей в соответствующем направлении.
-//Главное окно программы должно иметь возможность растягиваться при захвате его за один из краев / углов с помощью мыши.
-//При этом кнопки внутри окна должны соответствующим образом масштабироваться.Необходимо также предусмотреть, чтобы окно
-//нельзя было уменьшать меньше чем до 100x100 пикселов
-
 
 #include "stdafx.h"
 #include <cmath>
@@ -113,10 +105,6 @@ INT_PTR CALLBACK MainWndProc(HWND hDlg, UINT message, WPARAM wParam, LPARAM lPar
 	case WM_SIZE: 
 	{
 		ScaleElements(hDlg);
-		/*RECT rect;
-		GetClientRect(hWnd, &rect);
-		SetWindowPos(GetDlgItem(hWnd, IDOK), NULL, rect.left, rect.top, (rect.right - rect.left)/3, (rect.bottom - rect.top)/3, SWP_SHOWWINDOW);
-		SetWindowPos(GetDlgItem(hWnd, IDC_BUTTON1), NULL, rect.left, rect.top + (rect.bottom - rect.top) / 3, (rect.right - rect.left) / 3, (rect.bottom - rect.top) / 3, SWP_SHOWWINDOW);*/
 	}
 		break;
     case WM_COMMAND:
@@ -128,7 +116,6 @@ INT_PTR CALLBACK MainWndProc(HWND hDlg, UINT message, WPARAM wParam, LPARAM lPar
 			{
 				SetWindowText(hDlg, (LPCWSTR)settings->captionText);
 			}
-				//InvalidateRect(hDlg, NULL, NULL);
 				return (INT_PTR)TRUE;
 			}
 
