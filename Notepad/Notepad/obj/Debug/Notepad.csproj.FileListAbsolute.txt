@@ -1,0 +1,11 @@
+C:\GithubProjects\Notepad\Notepad\bin\Debug\Notepad.exe.config
+C:\GithubProjects\Notepad\Notepad\bin\Debug\Notepad.exe
+C:\GithubProjects\Notepad\Notepad\bin\Debug\Notepad.pdb
+C:\GithubProjects\Notepad\Notepad\obj\Debug\Notepad.csprojAssemblyReference.cache
+C:\GithubProjects\Notepad\Notepad\obj\Debug\Notepad.aboutBox.resources
+C:\GithubProjects\Notepad\Notepad\obj\Debug\Notepad.Form1.resources
+C:\GithubProjects\Notepad\Notepad\obj\Debug\Notepad.Properties.Resources.resources
+C:\GithubProjects\Notepad\Notepad\obj\Debug\Notepad.csproj.GenerateResource.cache
+C:\GithubProjects\Notepad\Notepad\obj\Debug\Notepad.csproj.CoreCompileInputs.cache
+C:\GithubProjects\Notepad\Notepad\obj\Debug\Notepad.exe
+C:\GithubProjects\Notepad\Notepad\obj\Debug\Notepad.pdb
